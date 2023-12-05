@@ -1,0 +1,77 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>My Destiny</title>
+    <link rel="icon" type="image/x-icon" href="icons8-favorite-16.png">
+
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/check-otp.js"></script>
+</head>
+
+<body>
+    <div id="otpCheck">
+        <h1>Enter passcode if you are Lê Ngọc Trang</h1>
+        <div class="otp-field">
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+        </div>
+    </div>
+    <audio controls id="music" style="opacity: 0; height: 0;">
+        <source src="A-Thousand-Years.mp3" type="audio/mpeg">
+    </audio>
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+                <span class="comments">/**</span><br />
+                <span class="space" /><span class="comments">*31-10-2009</span><br />
+                <span class="comments">**/</span><br />
+                <span class="comments">----------------------------------------------</span><br />
+                “To the skeptics, perhaps the events that are to follow were just a coincidence and nothing more than a
+                series of random accidents that led me to where I am today. But to the lovers and poets and dreamers,
+                perhaps you might agree that the story about to unfold is something more. You might even agree that
+                there are times when coincidences are so powerful that they don’t really seem like coincidences anymore.
+                Times when you come across events that seem too strange, or too strong, to be anything other than Fate—a
+                grand design that incorporates everything from the career paths we take, the friends we meet along the
+                way, and the partners we choose to spend our lives with. Times like these make you question that maybe
+                nothing in this world happens by accident. Maybe everything really does happen for a reason, as some
+                prewritten destiny slowly takes shape and shoves you down a path—or in my case, a mountain side.”
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+                        "Everything happens for a reason."
+                        <div id="elapseClock"></div>
+                    </div>
+                    <!-- <div id="loveu">
+                        爱你直到永永远远。<br />
+                        <div class="signature">- 爱你的人</div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
